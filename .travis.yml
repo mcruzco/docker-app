@@ -7,3 +7,5 @@ before_install:
 
 script:
     -   - docker run -e CI=true mcruzcl/docker-react npm run test
+
+language: generic
